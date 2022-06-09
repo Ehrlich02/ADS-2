@@ -4,10 +4,8 @@
 
 
 double pown(double value, uint16_t n) {
-    double res = 1.0;
     for (int i = 1; i <= n; i++) {
-        res = res * value;
-    }
+        res = res * value; }
     return res;
 }
 
