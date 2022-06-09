@@ -31,7 +31,7 @@ double expn(double x, uint16_t count) {
      for (int i = 1; i < count + 1; ++i) {
         res += calcItem(x, i);
     }
-    return ex;
+    return res;
 }
 
 double sinn(double x, uint16_t count) {
